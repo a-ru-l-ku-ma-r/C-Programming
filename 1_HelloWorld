@@ -6,7 +6,25 @@
 
 int main()
 {
-    std::cout<<"Hello, #__Rugged__Embedded__System__# World...!";
+    std::cout<<"Hello, #__Rugged__Embedded__System__# World...!\n";
+    
+    int a = 12;
+    
+    char b = 0x52;
+    
+    float c = 92.5;
+    
+    std::cout<<a ;
+    
+    std::cout<<'\n' ;
+    
+    std::cout<<b ;
+    
+    std::cout<<'\n' ;    
+    
+    std::cout<<c ;
+    
+    std::cout<<'\n' ;    
 
     return 0;
 }
@@ -14,3 +32,6 @@ int main()
 // ******************************************************************************************************
 Output :
 Hello, #__Rugged__Embedded__System__# World...!
+12
+R
+92.5
